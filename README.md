@@ -18,46 +18,22 @@ src
    - pages
      - account
        - index.jsx
-       - settings.jsx
-       - orders.jsx
+<!--        - settings.jsx > -->
+<!--        - orders.jsx -->
        - ...
 
      - courses
        - index.jsx
-       - create.jsx
+<!--        - create.jsx -->
        - [courseId].jsx
        - [courseId]/overview.jsx
        - [courseId]/curriculum.jsx
        - [courseId]/reviews.jsx
-       - [courseId]/enroll.jsx
        - ...
 
      - authentication
-       - login.jsx
-       - signup.jsx
+       - login.jsx > embedded
+       - signup.jsx > embedded
        - forgotPassword.jsx
        - resetPassword.jsx
        - ...
-
-     - dashboard
-       - index.jsx
-       - analytics.jsx
-       - earnings.jsx
-       - ...
-
-     - ...
-
-   - styles
-     - global.css
-     - variables.css
-     - ...
-
-   - utils
-     - formatDate.js
-     - calculateDiscount.js
-     - ...
-
-   - public
-     - images
-     - fonts
-     - ...
